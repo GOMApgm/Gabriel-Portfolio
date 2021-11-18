@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    justify-content: center;
+}
+
+/* Barra de Rolagem */
+/*Fundo*/
+::-webkit-scrollbar-track{
+    background-color: #1c1c1d;
+}
+
+::-webkit-scrollbar{
+    width: 6px;
+    background: #F4F4F4;
+}
+
+/*Linha que desce*/
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(329.54deg, rgb(0, 255, 234) 20%, rgb(0, 255, 179) 100%);
+    border-radius: 15rem;
+}

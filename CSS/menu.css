@@ -1,0 +1,88 @@
+.hamburger{
+    width: 2.2rem;
+    height: 2rem;
+    position: fixed;
+    z-index: 5;
+    right: 5rem;
+    top: 2.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.show-menu .hamburger{
+    right: 4rem;
+    top: 3rem;
+    background-color: rgba(59, 59, 59, 0.158);
+    border-radius: 1rem;
+    padding: 18px;
+    padding-left: 15px;
+    padding-right: 21px;
+    margin-right: -13px;
+    border: 1px solid rgba(100, 100, 100, 0.062);
+}
+
+.show-menu .hamburger:hover{
+    background-color: rgba(90, 90, 90, 0.212);
+    transition-duration: .5s;
+}
+
+.line{
+    width: 100%;
+    height: .2rem;
+    padding: 1px;
+    margin-left: 8px;
+    border-radius: 5rem;
+    background-color: rgb(0, 255, 179);
+    box-shadow: inset 0 0 7px #14ffb1, 0 0 7px #14ffa5;
+    transition: transform .7s;
+}
+
+.show-menu #line1{
+    transform: rotate(45deg) translate(.4rem, .9rem);
+    background-color: rgb(224, 49, 102);
+    box-shadow: inset 0 0 7px #ff146e, 0 0 7px #ff145a;
+}
+
+.show-menu #line2{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.show-menu #line3{
+    transform: rotate(-45deg) translate(.3rem, -.8rem);
+    background-color: rgb(224, 49, 102);
+    box-shadow: inset 0 0 7px #ff146e, 0 0 7px #ff145a;
+}
+
+.sidebar{
+    width: 6.8rem;
+    height: 92vh;
+    margin-top: 1.8rem;
+    margin-bottom: -30rem;
+    margin-right: 2rem;
+    border-radius: 2rem;
+    background-color: rgba(0, 0, 0, 0.37);
+    position: fixed;
+    right: -25rem;
+    backdrop-filter: blur(15px);
+    z-index: 4;
+}
+
+.show-menu .sidebar{
+    right: 0;
+}
+
+.menu{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.menu-item{
+    text-align: center;
+    margin-bottom: .5rem;
+}
