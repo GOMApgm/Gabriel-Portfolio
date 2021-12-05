@@ -1,2 +1,2 @@
 # Gabriel-Portfolio
-https://gomapgm.github.io/Gabriel-Portfolio/
+https://gabriel-prgm.github.io/Gabriel-Portfolio/
